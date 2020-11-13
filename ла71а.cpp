@@ -4,7 +4,7 @@
 
 using namespace std;
 
-vector<string> myfnc(vector <string> string);
+void myfnc(vector <string> &str);
 
 int main()
 {
@@ -24,11 +24,11 @@ int main()
             k++;
         }
     }
-    vector<string> nstr = myfnc(str);
-    for (int i = 0; i < size(nstr); i++)
-        cout << nstr[i] << " ";
+    myfnc(str);
+    for (int i = 0; i < size(str); i++)
+        cout << str[i] << " ";
 }
-vector<string> myfnc(vector <string> str)
+void myfnc(vector <string> &str)
 {
     vector<string> nstr;
     for (string x : str) {
@@ -41,5 +41,5 @@ vector<string> myfnc(vector <string> str)
         }
         nstr.push_back(x);
     }
-    return nstr;
+    str.swap(nstr);
 }
