@@ -1,0 +1,4 @@
+﻿  ла71а.cpp
+C:\Users\ASUS\source\repos\ла71а\ла71а\ла71а.cpp(16,23): warning C4018: <=: несоответствие типов со знаком и без знака
+C:\Users\ASUS\source\repos\ла71а\ла71а\ла71а.cpp(28,23): warning C4018: <: несоответствие типов со знаком и без знака
+  ла71а.vcxproj -> C:\Users\ASUS\source\repos\ла71а\Debug\ла71а.exe
